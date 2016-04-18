@@ -8,10 +8,10 @@
 	<header>
 	<nav>
 		<ul class= "middlenav">
-			<li>Home</li>
+			<li><a href="index1.php">Home</a></li>
 			<li>About</li>
 			<li>Contact</li>
-			<a href="#">Login</a>
+			<a href="registration.php" class="signup">Sign up</a>
 		</ul>
 
 	</nav>

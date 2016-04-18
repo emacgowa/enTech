@@ -1,0 +1,209 @@
+* {
+	margin: 0px;
+}
+
+nav {
+	background: #000;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+nav ul.middlenav {
+    /*padding-top:30px;*/
+    text-align: center;
+    position: relative;
+
+}
+
+div.logo img {
+	width: 300px;
+}
+
+nav ul.middlenav li{
+	display: inline-block;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ddd;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	letter-spacing: 2px;
+}
+
+
+ul.middlenav a {
+	text-decoration: none;
+	color: white;
+}
+
+nav ul.middlenav a.signup {
+	float:right;
+	text-decoration: none;
+	color:#aaa;
+	text-align: right;
+	position: absolute;
+	top:15px;
+	right:20px;
+}
+
+section.splash {
+	padding-bottom:20px;
+    text-align: center;
+    background-image: url(images2/background1.jpg);
+    background-size: cover;
+}
+
+section.splash div.logo {
+	padding-left: 25%;
+	padding-top: 140px;
+	width: 50%;
+	text-align: center;
+}
+
+section.splash h1 {
+	margin: 0px;
+	color: white;
+    text-shadow: 1px 2px 1px darkgray;
+	padding-top: 100px;
+	font-size: 50px;
+    font-family: "Noa W01","Helvetica Neue",Helvetica,Arial,sans-serif;
+	/*color: darkgray;*/
+	/*I might delete the above stuff*/
+}
+
+section.about {
+	height: 400px;
+}
+
+div#container {
+	width: 400px;
+    height: 165px;
+    /*197 180 82 0.8*/
+    margin: 0 auto;
+    border-radius: 0%;
+    position: relative;
+    margin-bottom:100px;
+}
+
+form#login {
+	position: absolute;
+    top: 16%;
+    left: 16%;
+}
+
+form#login label {
+	color: white;
+}
+
+input[type="text"],[type="password"], textarea{
+
+  /*if you want to change the color of the input boxes do it here*/
+  /*background-color : rgba(200, 200, 200, 0.8); */
+
+}
+
+form#login legend {
+	margin: 0 auto;
+	font-family: "Helvetica Neue", Helvetica;
+	font-size: 20px;
+	color: white;
+}
+
+/* REGISTRATION PAGE CODE */
+
+body.register section.registration {
+	background-image: url(images2/smart2.jpeg);
+	height: 700px;
+	text-align: center;
+	background-size: cover;
+}
+
+section.registration div {
+	width: 400px;
+	height: 500px;
+}
+
+div.form {
+	margin: 0 auto;
+}
+
+div.form form {
+	margin-top: 10px;
+    background-color: rgb(202, 182, 182);
+    border-radius: 3%;
+}
+
+div.form form fieldset {
+	border: none;
+    box-shadow: 5px 5px 30px black;
+}
+
+/* FORM STUFF HERE */
+
+fieldset, ul{
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+ul{list-style: none;}
+
+#content{
+	margin: 25px auto;
+	width: 600px;
+	padding: 20px;
+	background: white;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+ul.alert{
+	width: 96.5%;
+	padding: 1px 10px;
+	background: #e1e1e1;
+	font-size: 1.3em;
+	margin: 0 0 10px 0;
+}
+
+ul.alert.error{
+	background: #ffbcbc;
+	color: #a40f0f;
+	border-bottom: 2px solid #e59898;
+}
+
+ul.alert.success{
+	background: #d2ffc8;
+	color: #227d0d;
+	border-bottom: 2px solid #9fde91;
+}
+
+fieldset li{
+	margin: 0 0 15px 0;
+}
+
+input[type=text],
+input[type=password]{
+    width: 70%;
+    margin: 0;
+    padding: 7px 5px 4px;
+    color: #555;
+    font-size: 18px;
+    font-family: inherit;
+    border-color: #E5E5E5;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    background: #fff url(../../img/bg_input.png) no-repeat scroll left top;
+}
+
+label{
+	font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.9em
+}
+
+h1.myreg {
+	padding-top:200px;
+	color: white;
+}
