@@ -22,7 +22,7 @@
 			<img src="images2/enTechLogo4.png"> 
 		</div>
 		<div id="container">
-		<form id='login' action='login.php' method='post' accept-charset='UTF-8'>
+		<form id="login" action="login.php" method="post" accept-charset="UTF-8">
 
 				<legend>Login</legend>
 				<br>
