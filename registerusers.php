@@ -1,10 +1,17 @@
  <?php
+ echo "hello";
 
 $servername = "localhost";
 $username = "root";
 $password = "root";
 $databasename = "users";
 $connection= mysqli_connect($servername, $username, $password, $databasename) or die ("could not connect to mysql");
+
+echo "yep";
+if (!$connection) {
+ 	echo "no connection";
+ } else {
+	echo "yes connection";
 
 if(isset($_SESSION['id'])){
 	header("Location: index1.php") // if the session id is true then bring them back to the index1.php page
